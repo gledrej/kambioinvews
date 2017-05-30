@@ -1,0 +1,1023 @@
+/****************************************       SETKA        *********************************************************/
+html,
+body {
+    height: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.content {
+    flex: 1 0 auto;
+}
+.footer {
+    flex: 0 0 auto;
+}
+input {outline: 0 !important;}
+button {outline: 0 !important;}
+
+.padding_null{
+    padding: 0 !important;
+}
+
+.margin_null{
+    margin: 0 !important;
+}
+
+.header_block_1{
+    position: relative;
+    border-bottom: 1px solid #B6B6B6;
+    width: 100%;
+    background: #fff;
+    z-index: 999999;
+}
+
+.header_block_1_images{
+    padding: 10px 0px 10px 0 !important;
+}
+
+.header_block_1_images .block_top_menu_bottom{
+    float: right;
+    top: 25px;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: none;
+}
+.header_block_1_images .block_top_menu_bottom:active{
+    float: right;
+    top: 25px;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: none;
+}
+
+
+.header_block_1_images .block_top_menu_bottom:hover{
+    float: right;
+    top: 25px;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: none;
+}
+
+
+.header_block_1_images .block_top_menu_bottom:focus{
+    float: right;
+    top: 25px;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: none;
+}
+
+.block_top_menu_bottom span{
+    font-size: 25px;
+}
+
+
+.header_block_1_menu ul li a{
+    font-size: 14px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(30, 30, 32);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.header_block_1_menu ul li a:focus{
+    font-size: 14px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(30, 30, 32);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header_block_1_menu ul li a:hover{
+    font-size: 14px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(30, 30, 32);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header_block_1_menu ul li a:visited{
+    font-size: 14px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(30, 30, 32);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer{
+    background: #006EB7;
+}
+
+.footer_block_1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer_block_2{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.footer_block_2 ul li a{
+    font-size: 13.445px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.footer_block_3{
+    border-top: 1px solid #ffffff;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.footer_block_3_content span{
+    color: #ffffff;
+}
+
+/****************************************     END SETKA        ********************************************************/
+
+/****************************************     PREDPRIYATIYA   ********************************************************/
+.predpriyatiya_section_block{
+    background: #F7F7F7;
+    padding-bottom: 105px;
+}
+
+.predpriyatiya_section_block_2_title_1 h1{
+    font-size: 36px;
+    font-family: "ProximaNovaBold";
+    color: rgb(0, 110, 183);
+    font-weight: bold;
+    margin: 60px 0 11px 0;
+}
+
+.predpriyatiya_section_block_2_title_2 h2{
+    font-size: 16px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(30, 30, 32);
+    margin: 0px 0 35px 60px;
+}
+
+.predpriyatiya_section_block_3_content{
+    margin: 15px 0;
+}
+
+.predpriyatiya_section_block_3_content_fon{
+    background: #ffffff;
+}
+
+.predpriyatiya_section_block_3_content_fon{
+    position: relative;
+    height: 180px;
+}
+
+
+.predpriyatiya_section_block_3_content_logo{
+    text-align: center;
+    line-height: 180px;
+    position: relative;
+    z-index: 998;
+    background: #ffffff;
+}
+
+.predpriyatiya_section_block_3_content_logo img{
+    max-width: 180px;
+    max-height: 140px;
+    image-rendering: initial;
+}
+
+.predpriyatiya_section_block_3_content_text{
+    height: 180px;
+    position:absolute;
+    z-index:999;
+    width: 100%;
+    top: 0;
+    background: rgb(0, 110, 183);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    padding: 20px 10px;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.predpriyatiya_section_block_3_content:hover .predpriyatiya_section_block_3_content_text{
+    opacity: 1;
+    visibility: visible;
+}
+
+.predpriyatiya_section_block_3_content_text_title h3{
+    font-size: 16px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(255, 255, 255);
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.predpriyatiya_section_block_3_content_text_info{
+    font-size: 16px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+/****************************************  END   PREDPRIYATIYA   *****************************************************/
+
+/********************************************   CONTACTS   ***********************************************************/
+.conracts_section_block{
+    padding-bottom: 110px;
+}
+
+.conracts_section_block_cont{
+    margin-bottom: 90px;
+}
+
+.conracts_section_block_form_title h1{
+    font-size: 16px;
+    font-family: "ProximaNovaBold";
+    color: rgb(30, 30, 32);
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.conracts_section_block .conracts_section_block_form_name{
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.conracts_section_block_form_name input{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #CCCCCC;
+    padding-left: 10px;
+
+}
+.conracts_section_block_form_name input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(30, 30, 32);
+    font-style: italic;
+    text-transform: full-width;
+}
+
+
+.conracts_section_block .conracts_section_block_form_email{
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.conracts_section_block_form_email input{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #CCCCCC;
+    padding-left: 10px;
+
+}
+.conracts_section_block_form_email input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(30, 30, 32);
+    font-style: italic;
+    text-transform: full-width;
+}
+
+.conracts_section_block .conracts_section_block_form_phone{
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.conracts_section_block_form_phone input{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #CCCCCC;
+    padding-left: 10px;
+
+}
+.conracts_section_block_form_phone input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(30, 30, 32);
+    font-style: italic;
+    text-transform: full-width;
+}
+
+.conracts_section_block .conracts_section_block_form_message{
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.conracts_section_block_form_message textarea{
+    width: 100%;
+    height: 280px;
+    border: 1px solid #CCCCCC;
+    padding-left: 10px;
+    padding-top: 18px;
+
+}
+.conracts_section_block_form_message textarea::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(30, 30, 32);
+    font-style: italic;
+    text-transform: full-width;
+}
+
+.conracts_section_block_form_bottum{
+    display: flow-root;
+}
+
+.conracts_section_block_form_bottum input{
+    width: 170px;
+    height: 40px;
+    background: #006EB7;
+    color: #ffffff;
+    float: right;
+    border: none;
+}
+
+.conracts_section_block_form_bottum input{
+    width: 170px;
+    height: 40px;
+    background: #006EB7;
+    color: #ffffff;
+    float: right;
+    border: none;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    text-transform: uppercase;
+}
+.conracts_section_block_form_bottum input:hover{
+    background: #037cb7;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: 6.7px 11.1px 27px rgba(0, 0, 0, .24);
+    -moz-box-shadow: 6.7px 11.1px 27px rgba(0, 0, 0, .24);
+    box-shadow: 6.7px 11.1px 27px rgba(0, 0, 0, .24);
+}
+
+
+.conracts_section_block_info_title h2{
+    font-size: 16px;
+    font-family: "ProximaNovaBold";
+    color: rgb(30, 30, 32);
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+
+.conracts_section_block_info_content{
+    font-size: 16px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(30, 30, 32);
+    letter-spacing: 0.6px;
+    line-height: 1.6;
+}
+
+
+
+.conracts_section_block_info_title h3{
+    font-size: 16px;
+    font-family: "ProximaNovaBold";
+    color: rgb(30, 30, 32);
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+.conracts_section_block .conracts_section_block_info .conracts_section_block_info_contact{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.conracts_section_block_info_contact_icon{
+    width: 45px;
+    float: left;
+}
+
+.conracts_section_block_info_contact_text{
+    display: inline-block;
+}
+
+.conracts_section_block_info_contact_text_title{
+    font-size: 14px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(30, 30, 32);
+    padding-bottom: 14px;
+    text-transform: uppercase;
+}
+
+.conracts_section_block_info_contact_text_inf {
+    font-size: 15px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(30, 30, 32);
+}
+
+/********************************************   END CONTACTS   ********************************************************/
+
+
+
+/****************************************************   NEWS   ********************************************************/
+.mews_block{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.news_block_coneiner_content{
+    border-bottom: 1px solid #CECECE;
+    margin-bottom: 40px;
+
+}
+
+
+.news_block_coneiner_content_info{
+    display: flow-root;
+}
+
+.news_block_coneiner_content_info div{
+    float: left;
+    font-size: 16px;
+    font-family: "Proxima Nova";
+    color: rgb(172, 170, 170);
+    text-align: justifyLeft;
+}
+
+.news_block_coneiner_content_info_time{
+    padding-right: 10px;
+}
+
+.news_block_coneiner_content_info_data{
+    padding: 2px 5px;
+}
+
+.news_block_coneiner_content_info_cat_raz{
+    padding: 2px 0px;
+}
+.news_block_coneiner_content_info_cat{
+    padding: 2px 5px;
+}
+
+.news_block_coneiner_content_images{
+    max-height: 370px;
+    overflow: hidden;
+    border: solid rgba(255, 0, 0, 0);
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+
+.news_block_coneiner_content_images img{
+    image-rendering: pixelated;
+    width: 100%;
+}
+
+.news_block_coneiner_content_description{
+    font-size: 16px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(30, 30, 32);
+    margin: 0px;
+    margin-bottom: 30px;
+}
+.news_block_coneiner_content_description p{
+    margin: 0px;
+}
+
+.news_block_coneiner_content_bottum{
+    width: 160px;
+    height: 40px;
+    background: #006EB7;
+    float: left;
+    font-size: 15px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+}
+
+
+.news_block_coneiner_content_bottum:hover{
+    background: #0864b7;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: 6.7px 11.1px 27px rgba(0, 0, 0, .24);
+    -moz-box-shadow: 6.7px 11.1px 27px rgba(0, 0, 0, .24);
+    box-shadow: 6.7px 11.1px 27px rgba(0, 0, 0, .24);
+}
+
+.news_block_coneiner_number {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.news_block_coneinerm_number_left{
+    border: 1px solid #CFCFCF;
+    padding: 8px;
+    color: #CFCFCF;
+}
+.news_block_coneinerm_number_right{
+    border: 1px solid #CFCFCF;
+    padding: 8px;
+    color: #CFCFCF;
+}
+
+.news_block_coneinerm_number_left a{
+    color: #CFCFCF;
+}
+.news_block_coneinerm_number_right a{
+    color: #CFCFCF;
+}
+
+
+.news_block_coneiner_number .news_block_coneiner_number_center {
+    display: inherit;
+    line-height: 18px;
+    font-size: 18px;
+    font-family: "ProximaNovaBold";
+    color: rgb(30, 30, 32);
+}
+
+.news_block_coneiner_number_center div {
+    float: left;
+}
+
+.news_block_coneiner_number li{
+    float: left;
+    padding: 9px 13px;
+    cursor: pointer;
+}
+
+.news_block_coneiner_number_list ul{
+    list-style-type: none;
+    display: flow-root;
+    padding: 0;
+    margin: 0;
+}
+
+.number_list_active{
+    background: #006EB7;
+    color: #ffffff;
+}
+
+.news_block_coneiner_content_bottum_a{
+    display: -webkit-box;
+}
+
+.news_block_cat_list{
+    margin-top: 75px;
+}
+
+.news_block_cat_list_title{
+    font-size: 16px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(0, 110, 183);
+    text-transform: uppercase;
+    line-height: 12px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #B6B6B6;
+}
+
+.news_block_cat_list_li ul{
+    padding-left: 0px;
+    padding-bottom: 40px;
+    margin: 0;
+    border-bottom: 1px solid #B6B6B6;
+}
+
+.news_block_cat_list_li ul li{
+    font-size: 15px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(30, 30, 32);
+    text-transform: uppercase;
+    line-height: 14px;
+    padding-top: 40px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.news_block_cat_list_li ul li:before{
+    color: #006EB7;
+    content: "•";
+    padding-right: 20px;
+    font-size: 35px;
+    display: table-row-group;
+    float: left;
+    line-height: 8px;
+}
+
+.news_block_cat_list_li ul li:hover{
+    font-size: 15px;
+    font-family: "ProximaNovaSemibold";
+    color: #006EB7;
+    text-transform: uppercase;
+    line-height: 14px;
+    padding-top: 40px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.news_block_cat_list_mobile{
+    overflow: hidden;
+    margin: 0;
+    position: fixed;
+    z-index: 999;
+    background: #fff;
+    top: 80px;
+    width: 100%;
+}
+
+
+.news_block_cat_list_mobile ul li{
+    font-size: 15px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(30, 30, 32);
+    text-transform: uppercase;
+    line-height: 14px;
+    list-style-type: none;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    border-top: 0px;
+    border-bottom: 1px solid #B6B6B6;
+}
+
+.news_block_cat_list_mobile ul li:hover{
+    font-size: 15px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(30, 30, 32);
+    text-transform: uppercase;
+    line-height: 14px;
+    border-top: 0px;
+    list-style-type: none;
+    border-bottom: 1px solid #B6B6B6;
+    background: #D41E24;
+    color: #ffffff;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+
+
+.news_block_cat_list_mobile ul{
+    padding: 0;
+    margin: 0;
+    width: 9999px;
+}
+
+.news_block_cat_list_mobile ul li{
+    list-style-type: none;
+    float: left;
+    padding: 15px 40px;
+}
+
+.news_block_baner_li ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    padding: 40px 0 0px 0;
+    border-bottom: 1px solid #B6B6B6;
+}
+
+
+.news_block_baner_li li{
+    list-style-type: none;
+    padding-bottom: 40px;
+}
+
+.news_block_baner_li_img{
+    width:100%;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+}
+
+.news_block_baner_li_img:hover{
+    background: #0864b7;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: 6.7px 11.1px 27px rgba(0, 0, 0, .24);
+    -moz-box-shadow: 6.7px 11.1px 27px rgba(0, 0, 0, .24);
+    box-shadow: 6.7px 11.1px 27px rgba(0, 0, 0, .24);
+}
+
+.jobs_block{
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.dropdown-menu {
+    border: none !important;
+}
+.jobs_block .jobs_block_left .jobs_block_left_sort_1_bottum .show-tick{
+    width: 100% !important;
+    border: 1px solid #CFD2D3;
+    position: relative;
+    z-index:9999;
+}
+
+
+.jobs_block .jobs_block_left .jobs_block_left_sort_1_bottum .show-tick button{
+    background: #fff;
+    color: #000;
+    border-radius: 0;
+    font-size: 13px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(30, 30, 32);
+    text-transform: uppercase;
+    padding: 12px 10px;
+    outline: 0 !important;
+    border: none;
+    z-index: 998;
+    border: 1px solid #CFD2D3;
+}
+
+.jobs_block .jobs_block_left{
+    z-index:9999;
+    position: relative;
+}
+
+.bootstrap-select.btn-group .dropdown-menu .selected{
+    background: #006EB7;
+    border: none;
+}
+.bootstrap-select.btn-group .dropdown-menu .selected a{
+    background: #006EB7;
+    color: #fff;
+    padding: 10px 20px;
+    outline: 0 !important;
+}
+
+.jobs_block_left_sort_1_bottum{
+    position: relative;
+    z-index: 9;
+}
+
+.bootstrap-select.btn-group .dropdown-menu li{
+    background: #fff;
+}
+
+.bootstrap-select.btn-group .dropdown-menu li a{
+    background: #fff;
+    padding: 10px 20px;
+}
+.bootstrap-select.btn-group .dropdown-menu li:focus{
+    background: #006EB7;
+}
+
+.bootstrap-select.btn-group .dropdown-menu li:hover{
+    background: #006EB7;
+}
+
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark {
+    position: absolute;
+    display: inline-block;
+    right: 15px;
+    margin-top: 10px !important;
+}
+
+
+.jobs_block .jobs_block_left .dropdown-menu{
+    padding: 0;
+}
+.jobs_block_right_border{
+    display: inline-block;
+    border-top: 1px solid #CFD2D3;
+    border-left: 1px solid #CFD2D3;
+    border-right: 1px solid #CFD2D3;
+}
+
+.jobs_block_right_info{
+    line-height: 60px;
+    border-bottom: 1px solid #CFD2D3;
+    display: flow-root;
+}
+
+.jobs_block_right_info_number {
+    font-size: 26px;
+    font-family: "ProximaNovaBold";
+    color: rgb(207, 210, 211);
+    text-align: center;
+}
+
+.jobs_block_right_info_title {
+    font-size: 16px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(30, 30, 32);
+    text-align: left;
+}
+
+.jobs_block_left_vakansiy{
+    border: 1px solid #CFD2D3;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.jobs_block_left_vakansiy_status{
+    font-size: 12px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    padding: 2px 10px;
+    background: #D41E24;
+    color: #ffffff;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+
+
+.jobs_block_left_sort{
+    margin-bottom: 20px !important
+}
+
+.jobs_block_left_vakansiy_title{
+
+}
+
+.jobs_block_left_vakansiy_title span{
+    font-size: 16px;
+    font-family: "ProximaNovaBold";
+    color: rgb(0, 110, 183);
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+
+.jobs_block_left_vakansiy_info_name{
+    font-size: 15px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(179, 179, 180);
+}
+
+
+.jobs_block_left_vakansiy_info_city{
+    font-size: 15px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(179, 179, 180);
+}
+
+
+.jobs_block_left_vakansiy_info_data{
+    font-size: 15px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(179, 179, 180);
+}
+
+.jobs_block_left_vakansiy_info_name_title{
+    padding: 0px 40px 0px 10px !important;
+    font-size: 15px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(30, 30, 32);
+}
+
+.jobs_block_left_vakansiy_info_city_title{
+    padding: 0px 40px 0px 10px !important;
+    font-size: 15px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(30, 30, 32);
+}
+
+.jobs_block_left_vakansiy_info_data_title{
+    padding: 0px 40px 0px 10px !important;
+    font-size: 15px;
+    font-family: "ProximaNovaSemibold";
+    color: rgb(30, 30, 32);
+}
+
+.jobs_block_left_vakansiy_content_text{
+    padding: 10px;
+    font-size: 16px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(30, 30, 32);
+    line-height: 1.625;
+}
+
+.jobs_block_left_vakansiy_content_bottom{
+    border-top: 1px solid #CFD2D3;
+}
+
+.jobs_block_left_vakansiy_content_bottom_zp{
+    float: left;
+    padding: 0 10px;
+}
+
+.jobs_block_left_vakansiy_content_bottom_zp span{
+    font-size: 14px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(30, 30, 32);
+    text-transform: uppercase;
+    line-height: 40px;
+
+}
+
+.jobs_block_left_vakansiy_content_bottom_right{
+    float: right;
+    display: flex;
+}
+
+
+
+.jobs_block_left_vakansiy_content_bottom_right_link{
+    font-size: 14px;
+    font-family: "ProximaNovaRegular";
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    background: #006EB7;
+    width: 180px;
+    text-align: center;
+}
+
+.jobs_block_left_vakansiy_content_bottom_right_link a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.jobs_block_left_vakansiy_content_bottom_right_link a:hover{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+}
+
+.jobs_block_left_vakansiy_content_bottom_right_link a:visited{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+}
+
+.jobs_block_left_vakansiy_content_bottom_right_link{
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+}
+
+.jobs_block_left_vakansiy_content_bottom_right_link:hover{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: 6.7px 11.1px 27px rgba(0, 0, 0, .24);
+    -moz-box-shadow: 6.7px 11.1px 27px rgba(0, 0, 0, .24);
+    box-shadow: 6.7px 11.1px 27px rgba(0, 0, 0, .24);
+}
+
+
+.jobs_block_left_vakansiy_content_bottom_link{
+    line-height: 40px;
+    padding: 0px 20px;
+    text-align: center;
+    border-left: 1px solid #CFD2D3;
+    text-decoration: none;
+}
+
+
+.jobs_block_left_vakansiy_content_bottom_link a{
+    text-decoration: none;
+}
+
+.jobs_block_left_vakansiy_content_bottom_link a:hover{
+    text-decoration: none;
+
+}
+
+.jobs_block_left_vakansiy_content{
+    display: flow-root;
+}
+
+/**************************************************** END  NEWS   *****************************************************/
+
+

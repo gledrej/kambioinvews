@@ -1,0 +1,511 @@
+@media (max-width: 767px) {
+    .header_block_1_images{
+        text-align: center;
+    }
+
+    .header_block_1_menu{
+        display: none;
+    }
+
+    .header_block_1_menu ul li{
+        text-align: center;
+        list-style: none;
+        border-top: 1px solid #B6B6B6;
+
+    }
+
+    .container .header_block_1_menu ul{
+        float: none;
+        line-height: 3;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .header_block_1_menu{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .header_block_1 .container{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .footer_block_1 a{
+        display: inline-block;
+    }
+
+    .footer_block_2 ul{
+        list-style: none;
+        display: block;
+        padding: 0;
+    }
+
+    .footer_block_2 ul li{
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 10px 20px;
+    }
+
+    .conracts_section_block .conracts_section_block_info{
+        padding-top: 40px;
+    }
+
+    .news_block_coneiner_content_title{
+        font-size: 16px;
+        font-family: "ProximaNovaRegular";
+        color: rgb(30, 30, 32);
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    .wrapper .content .news_block_cat{
+        padding-left: 15px;
+    }
+
+    .conracts_section_block{
+        padding: 0 !important;
+    }
+
+    .conracts_section_block_maps{
+        padding: 0 !important;
+    }
+
+    .conracts_section_block{
+        margin-bottom: 60px;
+    }
+
+    .news_block_cat_list{
+        display: none;
+    }
+
+    .news_block_cat_list_mobile{
+        display: block;
+    }
+
+    .jobs_block .jobs_block_left .jobs_block_left_sort_1{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .jobs_block .jobs_block_left .jobs_block_left_sort_2{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .jobs_block .jobs_block_left .jobs_block_left_sort_3{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .jobs_block_left_sort_1{
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .jobs_block_left_sort_2{
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .jobs_block_left_sort_3{
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .jobs_block .jobs_block_left .jobs_block_left_sort_1_bottum .show-tick .dropdown-menu{
+        z-index: 999;
+        position: relative;
+    }
+
+    .jobs_block_left_vakansiy_info div{
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .jobs_block_left_vakansiy_info{
+        padding-bottom: 10px;
+    }
+
+    .jobs_block_left_vakansiy_info_data_title{
+        padding-bottom: 10px !important;
+    }
+
+    .jobs_block_right_border{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .header_block_1_menu ul li{
+        text-align: center;
+        list-style: none;
+        border-top: 1px solid #B6B6B6;
+
+    }
+
+    .header_block_1_menu{
+        display: none;
+    }
+
+    .header_block_1_menu ul{
+        float: none;
+        line-height: 3;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container .header_block_1_menu{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .footer_block_2 ul{
+        list-style: none;
+        display: block;
+        padding: 0;
+    }
+
+    .footer_block_2 ul li{
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 10px 20px;
+    }
+
+    .conracts_section_block .conracts_section_block_info{
+        padding-top: 40px;
+    }
+
+
+    .news_block_coneiner_content_title{
+        font-size: 16px;
+        font-family: "ProximaNovaRegular";
+        color: rgb(30, 30, 32);
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    .wrapper .content .news_block_cat{
+        padding-left: 15px;
+    }
+
+    .conracts_section_block{
+        padding: 0 !important;
+    }
+
+    .conracts_section_block_maps{
+        padding: 0 !important;
+    }
+
+    .conracts_section_block{
+        margin-bottom: 60px;
+    }
+
+    .news_block_cat_list{
+        display: none;
+    }
+
+    .news_block_cat_list_mobile{
+        display: block;
+    }
+
+    .carousel-arrow-left, .carousel-arrow-right {
+        float: left;
+        display: block;
+        border: 1px solid grey;
+        background-color: lightgrey;
+        padding: 5px;
+        margin-top: 50px;
+    }
+
+    .carousel-arrow-left:hover, .carousel-arrow-right:hover {
+        cursor: pointer;
+        background-color: grey;
+    }
+
+    .carousel-arrow-left {
+        margin-right: 25px;
+    }
+
+    .carousel-arrow-right {
+        margin-left: 25px;
+    }
+
+    .jobs_block .jobs_block_left .jobs_block_left_sort_1{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .jobs_block .jobs_block_left .jobs_block_left_sort_2{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .jobs_block .jobs_block_left .jobs_block_left_sort_3{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .jobs_block_left_sort_1{
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .jobs_block_left_sort_2{
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .jobs_block_left_sort_3{
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .jobs_block .jobs_block_left .jobs_block_left_sort_1_bottum .show-tick .dropdown-menu{
+        z-index: 999;
+        position: relative;
+    }
+
+
+    .jobs_block_left_vakansiy_info div{
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .jobs_block_left_vakansiy_info_data_title{
+        padding-bottom: 10px !important;
+    }
+
+    .jobs_block_right_border{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+   .header_block_1_menu{
+        display: block;
+    }
+
+    .header_block_1_menu ul li a{
+        -moz-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+    }
+
+    .header_block_1_menu ul li a:hover{
+        background: #D41E24;
+        color: #ffffff;
+        -webkit-transform: scale(2);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .header_block_1_menu ul li{
+        float: left;
+        list-style: none;
+        margin: 0 0px;
+    }
+
+    .header_block_1_menu ul{
+        float: right;
+        line-height: 5.6;
+        margin: 0;
+    }
+
+    .footer_block_2 ul{
+        list-style: none;
+        display: -webkit-inline-box;
+        padding: 0;
+    }
+
+    .footer_block_2 ul li{
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0 20px;
+    }
+
+    .conracts_section_block .conracts_section_block_form_name{
+        padding-right: 10px;
+    }
+
+    .conracts_section_block .conracts_section_block_form_email{
+        padding-left: 10px;
+    }
+
+
+    .conracts_section_block .conracts_section_block_info{
+        padding-top: 0px;
+        padding-left: 65px;
+    }
+
+
+    .news_block_coneiner_content_title{
+        font-size: 22px;
+        font-family: "ProximaNovaRegular";
+        color: rgb(30, 30, 32);
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    .wrapper .content .news_block_cat{
+        padding-left: 65px;
+    }
+
+    .conracts_section_block_maps{
+        padding: 0 15px !important;
+    }
+
+    .conracts_section_block{
+        margin-bottom: 120px;
+    }
+
+    .news_block_cat_list{
+        display: block;
+    }
+
+    .news_block_cat_list_mobile{
+        display: none;
+    }
+
+    .jobs_block .jobs_block_left .jobs_block_left_sort_1{
+        padding-right: 15px !important;
+    }
+
+    .jobs_block .jobs_block_left .jobs_block_left_sort_2{
+        padding-right: 15px !important;
+    }
+
+    .jobs_block_left_sort_1{
+        float: left;
+        width: 40%;
+        margin-top: 0;
+    }
+    .jobs_block_left_sort_2{
+        float: left;
+        width: 40%;
+        margin-top: 0;
+    }
+    .jobs_block_left_sort_3{
+        float: left;
+        width: 20%;
+        margin-top: 0;
+    }
+
+
+    .jobs_block .jobs_block_left .jobs_block_left_sort_1_bottum .show-tick .dropdown-menu{
+        z-index: 999;
+        position: absolute;
+    }
+
+    .jobs_block .jobs_block_left .jobs_block_left_sort_1_bottum .show-tick .dropdown-menu ul{
+        border: 1px solid #CFD2D3 !important;
+    }
+
+    .jobs_block_left_vakansiy_info{
+        padding: 0px 10px 26px 10px !important;
+    }
+
+    .jobs_block_left_vakansiy_info div{
+        float: left;
+        width: initial;
+        padding: initial;
+
+    }
+
+}
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    .header_block_1_menu{
+        display: block;
+    }
+    .header_block_1_menu ul li a{
+        -moz-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+    }
+
+    .header_block_1_menu ul li a:hover{
+        background: #D41E24;
+        color: #ffffff;
+        -webkit-transform: scale(2);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .header_block_1_menu ul li{
+        float: left;
+        list-style: none;
+        margin: 0 10px;
+    }
+
+    .header_block_1_menu ul{
+        float: right;
+        line-height: 5.6;
+        margin: 0;
+    }
+
+    .footer_block_2 ul{
+        list-style: none;
+        display: -webkit-inline-box;
+        padding: 0;
+    }
+
+
+    .footer_block_2 ul li{
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0 20px;
+    }
+
+
+
+    .news_block_coneiner_content_title{
+        font-size: 22px;
+        font-family: "ProximaNovaRegular";
+        color: rgb(30, 30, 32);
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    .wrapper .content .news_block_cat{
+        padding-left: 65px;
+    }
+
+    .conracts_section_block_maps{
+        padding: 0 15px !important;
+    }
+
+    .conracts_section_block{
+        margin-bottom: 120px;
+    }
+
+    .news_block_cat_list{
+        display: block;
+    }
+
+
+    .news_block_cat_list_mobile{
+        display: none;
+    }
+}
